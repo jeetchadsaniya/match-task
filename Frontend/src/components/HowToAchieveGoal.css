@@ -1,0 +1,98 @@
+.goal-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-container {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.calculate-button {
+  flex: 1;
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.calculate-button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.reset-button {
+  flex: 1;
+  background: #6c757d;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.result-container {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f9f9f9;
+  border-radius: 5px;
+}
+
+.result-content {
+  margin-top: 15px;
+}
+
+.result-lines {
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.result-line {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.result-line:last-child {
+  margin-bottom: 0;
+}
+
+.result-line strong {
+  color: #333;
+  font-weight: bold;
+}
