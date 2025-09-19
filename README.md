@@ -4,7 +4,7 @@ A full-stack application with React frontend and Node.js backend for team manage
 
 ## Prerequisites
 
-- Node.js (v14 or higher)
+- Node.js (v18 or higher)
 - npm (comes with Node.js)
 
 ## Backend Setup
