@@ -55,7 +55,7 @@ npm install
 
 ### 3. Configuration
 
-The frontend is already configured with the backend URL in `config.js`:
+add below code in `config.js` in root of Frotend:
 
 ```javascript
 export const BACKEND_BASEURL = "http://localhost:3000";
